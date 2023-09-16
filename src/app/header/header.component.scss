@@ -1,6 +1,14 @@
 .header-div {
     position: fixed;
     left: 257px;
-    width: 100%;
-    border-bottom: 1px solid grey;
+    width: calc(100% - 257px);
+    border-bottom: 1px solid #353535}
+
+.brand{
+    font-family: Spline Sans;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+margin-left: 21px;
+
 }

@@ -1,0 +1,32 @@
+.sidebar-nav {
+  background: #252525;
+  width: 257px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 2rem;
+}
+
+.logo-container {
+  text-align: center;
+
+}
+
+.button-container {
+
+  border-bottom: 1px solid #353535;
+}
+
+.nav-button-item {
+  width: 147px;
+  height: Fixed (40px);
+  top: 106px;
+  left: 29px;
+  padding: 10px, 16px, 10px, 16px;
+  border-radius: 10px;
+  gap: 8px;
+  background: linear-gradient(86.21deg, #3797ef 1.79%, #c05aff 100%);
+  text-align: center;
+  color: white;
+}
