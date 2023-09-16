@@ -1,12 +1,3 @@
-.sidebar-nav {
-  background: #252525;
-  width: 257px;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding-top: 2rem;
-}
 
 .logo-container {
   text-align: center;
@@ -28,3 +19,55 @@
   text-align: center;
   color: white;
 }
+
+
+.sidebar-nav {
+  background: #252525;
+  width: 257px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 2rem;
+  ul {
+    padding: 0;
+    margin-top: 20px;
+    li {
+      padding: 20px 20px;
+      &.active {
+        background: #293c4d;
+        a {
+          border: 0;
+          background: linear-gradient(86.21deg, #3797ef 1.79%, #c05aff 100%);
+          padding: 14px 15px;
+        }
+      }
+      a {
+        padding: 5px 15px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #fff;
+        border: 4px solid;
+        border-radius: 15px;
+        border-image: linear-gradient(to bottom, #3797ef, #c05aff) 0 0 0 1;
+      }
+      & + li {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.side-nav-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../assets/images/alipay.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-right: 15px;
+}
+
+
+
